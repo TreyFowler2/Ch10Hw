@@ -47,11 +47,11 @@ def main():
     print(deduction4.get_description(), '|', deduction4.get_date(), '| $', deduction4.get_chargeamt(), '|', deduction4.get_employeeid())
     print(deduction5.get_description(), '|', deduction5.get_date(), '| $', deduction5.get_chargeamt(), '|', deduction5.get_employeeid())
 
-    print("Employee Payment Reduction")
+    print("*** Employee Pay ***")
     print("Name:", Employee.get_name())
     print("ID Number:", Employee.get_id_number())
     print("Department:", Employee.get_department())
-    print("Total Salary: $", Employee.get_salary())
+    print("Gross Pay: $", Employee.get_salary())
     print("Net Pay: $", Employee.get_salary() - deduction2.get_totalamt(chg2, chg4, chg4))
 
 main()
